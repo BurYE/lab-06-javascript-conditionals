@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var number = prompt('gimme number');
+    var number2 = prompt('more numbers');
+    var math = prompt('what math');
+    var output = number*number2;
+    var output2 = number/number2;
+    var output3 = number%number2;
+
+    if(math === 'mult') {
+      console.log(number*number2);
+      alert(output);
+    } else if(math === 'div'){
+      console.log(number/number2);
+      alert(output2);
+    } else if(math === 'mod'){
+      console.log(number%number2);
+      alert(output3);
+    } else {
+      alert('??? thats not math');
+    }
+
+
+    </script>
+  </body>
+</html>
